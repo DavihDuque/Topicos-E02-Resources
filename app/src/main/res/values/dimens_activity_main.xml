@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimensões para activity_main -->
+    <dimen name="padding_large">30dp</dimen>
+
+    <dimen name="str_textlarge">30sp</dimen>
+    <dimen name="str_buttonText">20sp</dimen>
+
+    <dimen name="margin_bottom_large">50dp</dimen>
+</resources>

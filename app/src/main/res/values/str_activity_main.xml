@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_title">Olá, mundo!</string>
+    <string name="str_button">Surpresa!</string>
+    <string name="str_alert">Bem vindo, mestre</string>
+
+</resources>

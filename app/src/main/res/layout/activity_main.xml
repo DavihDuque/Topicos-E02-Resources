@@ -1,29 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
 
-<!--  TODO: Devemos isolar o valor dos atributos desse componente  -->
+    android:background="@color/gold_background"
+    >
+
+    <!--  Isolando as Strings no arquivo str_activity_main  -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Olá, mundo!"
-        android:layout_centerHorizontal="true"
-        android:textAlignment="center"
-        android:background="#D4AF37"
-        android:textSize="30dp"
-        android:padding="30dp"/>
 
-<!--  TODO: Devemos isolar o valor dos atributos desse componente  -->
-    <Button
+        android:layout_centerHorizontal="true"
+
+        android:padding="@dimen/padding_large"
+
+        android:text="@string/str_title"
+        android:textAlignment="center"
+        android:textSize="@dimen/str_textlarge"
+
+        android:background="@color/gold_primary" />
+
+
+    <!--  Isolando as Strings no arquivo str_activity_main  -->
+    <Button android:id="@+id/btn_surprise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+
+        android:padding="@dimen/padding_large"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
-        android:text="Surpresa!"
-        android:id="@+id/btn_surprise"/>
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_bottom_large"
+
+        android:background="@color/gold_primary"
+
+        android:text="@string/str_button"
+        android:textSize="@dimen/str_buttonText"/>
 </RelativeLayout>
